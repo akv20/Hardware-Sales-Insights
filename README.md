@@ -1,10 +1,10 @@
 # Hardware-Sales-Insights
-Create a POWER BI-based report along with the dashboard to check the sales patterns throughout the years and months.
+Created a Power BI-based report to check the sales patterns throughout the years and months.
 
 
 ATLIQ HARDWARE is a company that supplies computer hardware and peripherals to many clients across India. The Sales Director of the company faces a lot of challenges. He is facing issues in terms of tracking sales, revenue, and many more.
 
-To tackle this issue, we have created a POWER BI-based report along with the dashboard to check the sales patterns throughout the years and months.
+To tackle this issue, we have created a Power BI-based report along with the dashboard to check the sales patterns throughout the years and months.
 
 Report shows:
 1. Revenue
@@ -21,10 +21,10 @@ Skills needed to complete the job:
 1. Data Cleansing
 2. DAX language
 3. Analytical Skills
-4. SQL Query Language
-5. Business Intelligence Knowledge
+4. Business Intelligence Knowledge
+5. SQL Query Language
 
-Below are some of the query which we can run to validate our results from the visuals:-
+Below are some of the queries which we can run to validate our results from the Power BI visuals:-
 
 1. Below query will tell us the Revenue generated in the month of February and in the year 2020 -
 select sum(t.sales_amount) from transactions t inner join date d on t.order_date= d.date
