@@ -27,9 +27,11 @@ Skills needed to complete the job:
 Below are some of the queries which we can run to validate our results from the Power BI visuals:-
 
 1. Below query will tell us the Revenue generated in the month of February and in the year 2020 -
+
 select sum(t.sales_amount) from transactions t inner join date d on t.order_date= d.date
 where d.year= 2020 and d.month_name = "February" and (t.currency = 'INR\r' or t.currency = 'USD\r');
 
 2. Also we can find the Revenue generated for particular region, as I have find for "Mumbai" -
+
 select sum(t.sales_amount) from transactions t inner join date d on t.order_date= d.date
 where d.year= 2020 and t.market_code = "Mark002" and (t.currency = 'INR\r' or t.currency = 'USD\r'); 
